@@ -34,123 +34,123 @@ const images = [
 const imageTexts = {
     'Images/adapt-1.jpeg': {
         title: 'Diatoms',
-        text: 'Diatoms build hard, glass-like shells made of silica.'
+        text: 'Diatoms build silica shells in diverse shapes that maximize light absorption and buoyancy in different water conditions.'
     },
     'Images/adapt-2.webp': {
         title: 'Adapt Image 2',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Octopuses can rewire their brains to adapt to different ocean temperatures.'
     },
     'Images/adapt-3.jpg': {
         title: 'Adapt Image 3',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Urban birds modify the frequency of their songs realtime to higher frequencies to be heard over city noise.'
     },
     'Images/adapt-4.webp': {
         title: 'Adapt Image 4',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Humans carried water in containers, allowing travel and survival in dry environments.'
     },
     'Images/adapt-5.jpeg': {
         title: 'Adapt Image 5',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Plants evolve different leaf shapes to adjust for sunlight, moisture loss, and temperature across environments.'
     },
     'Images/adapt-6.jpeg': {
         title: 'Adapt Image 6',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Giraffes travel in groups (herding) to increase safety and coordinate movement across large open landscapes.'
     },
     'Images/adapt-7.jpeg': {
         title: 'Adapt Image 7',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Wind and rain carve repeating ridge patterns, creating surfaces that reduce further erosion by dispersing runoff.'
     },
     'Images/adapt-8.jpeg': {
         title: 'Adapt Image 8',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The crocodile’s eyes and nostrils sit on top of its head so it can breathe and watch without being seen.'
     },
     'Images/adapt-9.jpeg': {
         title: 'Adapt Image 9',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Antelope allow birds to perch and remove parasites, a mutualistic behavior that improves health for both species.'
     },
     'Images/adapt-10.jpeg': {
         title: 'Adapt Image 10',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The animal’s color blends with the grass, helping it stay hidden from predators or prey.'
     },
     'Images/adapt-11.jpeg': {
         title: 'Adapt Image 11',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Frogs position themselves under lily pads to stay cool and hide from predators.'
     },
     'Images/adapt-12.jpeg': {
         title: 'Adapt Image 12',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The ladybugs’ bright red shells warn predators they are toxic, helping prevent attacks.'
     },
     'Images/adapt-13.jpeg': {
         title: 'Adapt Image 13',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Deer cool their bodies by standing in water, helping them avoid overheating in warm environments.'
     },
     'Images/adapt-14.jpeg': {
         title: 'Adapt Image 14',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Cacti store water in thick ribbed stems, which expand and contract as water is gained or lost.'
     },
     'Images/adapt-15.jpeg': {
         title: 'Adapt Image 15',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Moss compresses and springs back after pressure, allowing it to survive trampling and retain moisture in harsh conditions.'
     },
     'Images/adapt-16.jpeg': {
         title: 'Adapt Image 16',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Jaguars have strong limbs and dense muscles that make them powerful swimmers, helping them hunt in river habitats.'
     },
     'Images/adapt-17.jpeg': {
         title: 'Adapt Image 17',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The tiger’s striped pattern breaks up its outline, making it nearly invisible while stalking.'
     },
     'Images/adapt-18.jpeg': {
         title: 'Adapt Image 18',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The dolphin surfs the wave to save energy, letting the water carry it forward with less effort.'
     },
     'Images/adapt-19.jpeg': {
         title: 'Adapt Image 19',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Heat-loving bacteria color the water in rings based on temperature tolerance, each species thriving at a different heat level.'
     },
     'Images/adapt-20.jpeg': {
         title: 'Adapt Image 20',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Monstera leaves develop holes (fenestrations) to let wind pass through and allow light to reach lower leaves in the rainforest understory.'
     },
     'Images/adapt-21.jpeg': {
         title: 'Adapt Image 21',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The tree grows in the direction of prevailing winds to reduce stress and avoid breaking.'
     },
     'Images/adapt-22.jpeg': {
         title: 'Adapt Image 22',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Moss stores and retains water in its dense carpet-like form, allowing it to survive in thin or nutrient-poor soils.'
     },
     'Images/adapt-23.jpeg': {
         title: 'Adapt Image 23',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Polar bears eat seals and stain their fur with blood, an adaptation to a carnivorous diet in ice-covered regions where vegetation is scarce.'
     },
     'Images/adapt-24.jpeg': {
         title: 'Adapt Image 24',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Slot canyons form where water repeatedly cuts through soft rock, shaping smooth flowing curves over time.'
     },
     'Images/adapt-25.jpeg': {
         title: 'Adapt Image 25',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Vining plants coil their tendrils around supports to climb toward sunlight more efficiently.'
     },
     'Images/adapt-26.jpeg': {
         title: 'Adapt Image 26',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Whales use powerful tail flukes to propel themselves efficiently, enabling long-distance migration with minimal energy loss.'
     },
     'Images/adapt-27.jpeg': {
         title: 'Adapt Image 27',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'When damaged at the growth point, some cacti grow in fan-like crests, spreading instead of rising to maximize sunlight capture.'
     },
     'Images/adapt-28.jpeg': {
         title: 'Adapt Image 28',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'Penguins form social colonies to conserve heat, protect their young, and improve survival in coastal environments.'
     },
     'Images/adapt-29.jpeg': {
         title: 'Adapt Image 29',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The green snail’s shell pigmentation matches surrounding foliage, providing camouflage from predators.'
     },
     'Images/adapt-30.jpeg': {
         title: 'Adapt Image 30',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        text: 'The ants form a coordinated drinking ring to share water without drowning or breaking the water’s surface tension.'
     }
 };
 
@@ -163,6 +163,35 @@ const trailImages = [];
 const stoppedImages = new Set(); // Track all stopped images
 let currentStoppedImage = null; // Track the most recently stopped image for text display
 let imageAtStopStart = null; // Track which image was at cursor when mouse stopped
+
+// Weighted selection for images - adapt-2, adapt-3, and adapt-4 appear more frequently
+function getWeightedImageIndex() {
+    // Create weighted array: adapt-2 (index 1), adapt-3 (index 2), adapt-4 (index 3) have weight 3
+    // All other images have weight 1
+    const weights = images.map((_, index) => {
+        if (index === 1 || index === 2 || index === 3) {
+            return 3; // adapt-2, adapt-3, adapt-4 appear 3x more often
+        }
+        return 1;
+    });
+    
+    // Calculate total weight
+    const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
+    
+    // Generate random number between 0 and totalWeight
+    let random = Math.random() * totalWeight;
+    
+    // Find which image index this random number corresponds to
+    for (let i = 0; i < weights.length; i++) {
+        random -= weights[i];
+        if (random <= 0) {
+            return i;
+        }
+    }
+    
+    // Fallback (shouldn't reach here)
+    return 0;
+}
 
 function fadeImage(container) {
     // Don't fade if this is a stopped image
@@ -261,6 +290,9 @@ function createTrailImage(x, y) {
     container.style.left = x + 'px';
     container.style.top = y + 'px';
     
+    // Use weighted selection to favor adapt-2, adapt-3, and adapt-4
+    imageIndex = getWeightedImageIndex();
+    
     const img = document.createElement('img');
     img.src = images[imageIndex];
     img.className = 'trail-image';
@@ -303,9 +335,6 @@ function createTrailImage(x, y) {
     document.body.appendChild(container);
     
     trailImages.push(container);
-    
-    // Cycle through images
-    imageIndex = (imageIndex + 1) % images.length;
     
     // Start fading after 1 second (unless it's a stopped image)
     const fadeTimer = setTimeout(() => {
@@ -583,7 +612,9 @@ function createDoubleClickTextBox() {
         doubleClickTextBox = document.createElement('div');
         doubleClickTextBox.className = 'double-click-text-box';
         doubleClickTextBox.innerHTML = `
-            <div class="sub-text">careers/adaptionlabs.ai</div>
+            <div class="sub-text">
+                adaptionlabs.ai/careers
+            </div>
         `;
         document.body.appendChild(doubleClickTextBox);
     }
