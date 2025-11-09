@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #FFF5F2;
+    cursor: none;
+    font-family: 'Arial', sans-serif;
+}
+
+.trail-image {
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+    display: block;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 2s ease-out, transform 2s ease-out;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.trail-image.fading {
+    opacity: 0 !important;
+    transition: opacity 2s ease-out !important;
+}
+
+.trail-image.persistent {
+    opacity: 1 !important;
+    transition: transform 0.3s ease !important;
+}
+
+.image-container.persistent {
+    opacity: 1 !important;
+    transform: translate(-50%, -50%) !important;
+    transition: transform 0.3s ease !important;
+}
+
+.image-container.retracting {
+    opacity: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    transition: opacity 2s ease-out !important;
+}
+
+.trail-image.hovered {
+    pointer-events: auto;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.trail-image.persistent.hovered {
+    transform: none;
+}
+
+.image-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #E5E5E5;
+    border-radius: 8px;
+    padding: 0;
+    display: inline-block;
+    overflow: visible;
+    opacity: 1;
+    transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.text-display {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    margin-top: 12px;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 20;
+    white-space: normal;
+}
+
+.text-display.visible {
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.text-display .figure-caption {
+    font-size: 8px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.text-display .body-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.background-text {
+    position: fixed;
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.background-text.visible {
+    opacity: 1;
+}
+
+.background-text.left {
+    bottom: 80px;
+    right: 40px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.background-text.right {
+    bottom: 40px;
+    right: 40px;
+    text-align: right;
+}
+
+.double-click-text-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    pointer-events: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.double-click-text-box.visible {
+    opacity: 1;
+}
+
+.double-click-text-box .main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.double-click-text-box .sub-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.2;
+}
+
